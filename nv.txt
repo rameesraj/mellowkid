@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-sm bg-transparent justify-content-center navbar-lower" id="nav2">
+
+          <div class="navbar-nav">
+
+
+
+            <a class="navlink" href="#home">HOME</a>
+            <a class="navlink" href="#news">COLLECTIONS</a>
+            <a class="navlink" href="#contact">CONTACT US</a>
+            <a class="navlink" href="#about">ABOUT US</a>
+          </div>
+        </nav>
