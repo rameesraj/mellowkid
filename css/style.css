@@ -129,16 +129,16 @@ body {
 }
 
 
-.slides{
-  max-height: 500px;
-}
+
 .body2{
-background-color: #ffdef5;
+background-color: #dff9c3;
 
 
 }
 .navbar{
-  background-color: #ffdef5;
+  background-color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 .navbar-fixed-top {
   top: 0;
@@ -153,3 +153,25 @@ background-color: #ffdef5;
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
   max-height: 340px;
 }
+.contct{
+  background-color:#cb2a68;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headbody{
+  background-image: url("mellowmain.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Damion', cursive;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot{
+  background-color:#cb2a68 ;
+  color: #ffffff;
+}
+
+
+
