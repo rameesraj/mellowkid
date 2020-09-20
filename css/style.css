@@ -144,7 +144,7 @@ background-color: #dff9c3;
   min-height: 400px;
   background-repeat: no-repeat;
   
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   color: #ffffff;
