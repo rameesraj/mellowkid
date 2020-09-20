@@ -141,13 +141,14 @@ background-color: #dff9c3;
 }
 .headbody{
   background-image: url("mellowmain.jpg");
-
-  
+  min-height: 400px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   color: #ffffff;
   font-family: 'Damion', cursive;
+  position: relative;
 }
 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -156,22 +157,7 @@ p{
   background-color:#cb2a68 ;
   color: #ffffff;
 }
-.bg-img {
-  /* The image used */
-  background-image: url("img.jpg");
 
-  min-height: 400px;
-  padding: 0px;
-  background-attachment: fixed;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-}
 
 
 
