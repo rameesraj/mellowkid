@@ -8,6 +8,7 @@ body {
 
 
 
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -49,28 +50,8 @@ body {
     width:100%;
     position:absolute;
     }
-   /* #footer.style4 .callout-box.style2 {
-      background: #cda367;
-  }
-  @media (max-width: 991px){
-.callout-box.style2, .callout-box.style3 {
-    text-align: center;
-}
   
-  }
-  .callout-box.style2 {
-    
-    background: #1b4268;
-    padding: 30px 0;
-  }
-  @media (max-width: 991px){
-.callout-box {
-    text-align: center;}}
-    .callout-box {
-      
-      position: relative;
-  }
- */
+  
  .footerenq{
    width: 100%;
    height: 100px;
@@ -160,8 +141,11 @@ background-color: #dff9c3;
 }
 .headbody{
   background-image: url("mellowmain.jpg");
-  background-size: cover;
+
+  
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   color: #ffffff;
   font-family: 'Damion', cursive;
 }
@@ -171,6 +155,22 @@ p{
 .foot{
   background-color:#cb2a68 ;
   color: #ffffff;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("img.jpg");
+
+  min-height: 400px;
+  padding: 0px;
+  background-attachment: fixed;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 
 
