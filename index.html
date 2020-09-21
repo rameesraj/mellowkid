@@ -15,54 +15,55 @@
   <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/scrolling-nav.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top">
   
-  <div class="container">
+  
     
     
      
 
-      <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top  shadow-sm">
-        <a class="navbar-brand ml-2" href="#"><img src="./assets/logo.png" width="50px" height="42px"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-          
-          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Location</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Collections
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">For her</a>
-                <a class="dropdown-item" href="#">For Him</a>
-               
-              </div>
-            </li>
-          </ul>
-        </div> </nav>
-  </div>
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/logo.png" width="50px" height="42px"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#collection">Collection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
+
+
+ 
+
+<header>
   <div class="contct text-center">
   Contact Us: +91 994796 0934
 </div>
-
+</header>
       
       <div class="headbody text-center p-5"  >
         
@@ -77,8 +78,8 @@
     
 
 
-
-     <div class="container-fluid p-4">
+<section id="about">
+     <div class="container-fluid p-4" >
        <div class="body2 p-3">
         <div class="container marketing">
 
@@ -106,19 +107,19 @@
           </div><!-- /.row -->
       
     </div> </div></div>
-
-
-
- 
-
-
-
-
+  </section>
 
 
  
 
-  <div class="hover01">
+
+
+
+
+
+ 
+<section id="collection">
+  <div class="hover01" >
   <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5" id="card">
    
 
@@ -216,11 +217,11 @@
 
  
 
-
+</section>
  
 
-
-  <div class="container">
+<section id="location">
+  <div class="container" >
     
   
 
@@ -286,7 +287,7 @@
       <!--Grid column-->
   
       <!--Grid column-->
-      <div class="col-lg-7">
+      <div class="col-lg-7" >
   
         <!--Google map-->
         <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
@@ -325,11 +326,11 @@
   </div>
 
 
-  
+</section>
 
-
+<section id="contact">
 <!-- Footer -->
-<footer class="page-footer font-small indigo">
+<footer class="page-footer font-small indigo" id="section4">
   <div class="footerenq"><h5 class="enq">CONTACT US</h5>
     <div class="text-center"><a href="https://wa.me/919947960934">
       <button type="button" class="btn btn-success mr-4"><i class="fa fa-fw fa-whatsapp mr-1" style="color:#ffffff"></i>Chat with us</button></a>
@@ -340,7 +341,7 @@
      
   </div>
   
-  </div>
+  </div></section>
   <!-- Footer Links -->
  
 <!-- Footer -->
@@ -463,14 +464,11 @@ Advanced Stitching</p>
   src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
   </script>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 
-</script>
-
+<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/scrolling-nav.js"></script>
 
 </html>
